@@ -8,6 +8,7 @@ WORKDIR /go/src/github.com/openfaas/faas/watchdog
 
 COPY vendor                     vendor
 COPY metrics                    metrics
+COPY concurrency-limiter        concurrency-limiter
 COPY types                      types
 COPY main.go                    .
 COPY handler.go			        .
